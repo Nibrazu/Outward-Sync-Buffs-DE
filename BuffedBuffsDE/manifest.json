@@ -1,0 +1,11 @@
+{
+    "name": "BuffedBuffsDE",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/thunderstore-io",
+    "description": "Slightly longer Boons, imbues, infuses, and resistances. Up to 5 and 10 minutes.",
+    "dependencies": [
+		"sinai-dev-SideLoader-3.8.4",
+        "BepInEx-BepInExPack_Outward-5.4.19"
+
+    ]
+}
