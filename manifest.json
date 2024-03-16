@@ -1,6 +1,6 @@
 {
     "name": "SyncBuffsDE",
-    "version_number": "1.0.0",
+    "version_number": "1.0.1",
     "website_url": "https://github.com/Nibrazu/Outward-Sync-Buffs-DE",
     "description": "Slightly longer Boons, imbues, infuses, and resistances. Up to 5 and 10 minutes.",
     "dependencies": [
