@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<SL_Item xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Target_ItemID>4400041</Target_ItemID>
+  <New_ItemID>-1</New_ItemID>
+  <Name>Fire Varnish</Name>
+  <Description>Thick fluid that confers the Fire element when applied to a melee weapon.
+
+The weapon will also inflict Burning to enemies.</Description>
+  <LegacyItemID>-1</LegacyItemID>
+  <IsPickable>true</IsPickable>
+  <IsUsable>true</IsUsable>
+  <QtyRemovedOnUse>1</QtyRemovedOnUse>
+  <GroupItemInDisplay>false</GroupItemInDisplay>
+  <HasPhysicsWhenWorld>false</HasPhysicsWhenWorld>
+  <RepairedInRest>true</RepairedInRest>
+  <BehaviorOnNoDurability>NotSet</BehaviorOnNoDurability>
+  <CastType>SpellBindLight</CastType>
+  <CastModifier>Immobilized</CastModifier>
+  <CastLocomotionEnabled>false</CastLocomotionEnabled>
+  <MobileCastMovementMult>-1</MobileCastMovementMult>
+  <CastSheatheRequired>2</CastSheatheRequired>
+  <OverrideSellModifier>-1</OverrideSellModifier>
+  <Tags>
+    <string>Consummable</string>
+    <string>Item</string>
+    <string>PressurePlateTrapComponent</string>
+  </Tags>
+  <StatsHolder>
+    <BaseValue>40</BaseValue>
+    <RawWeight>0.5</RawWeight>
+    <MaxDurability>-1</MaxDurability>
+  </StatsHolder>
+  <ExtensionsEditBehaviour>NONE</ExtensionsEditBehaviour>
+  <ItemExtensions>
+    <SL_ItemExtension xsi:type="SL_MultipleUsage">
+      <Savable>true</Savable>
+      <AppliedOnPrice>true</AppliedOnPrice>
+      <AppliedOnWeight>true</AppliedOnWeight>
+      <AutoStack>true</AutoStack>
+      <MaxStackAmount>999</MaxStackAmount>
+    </SL_ItemExtension>
+  </ItemExtensions>
+  <EffectBehaviour>Destroy</EffectBehaviour>
+  <EffectTransforms>
+    <SL_EffectTransform>
+      <TransformName>Effects</TransformName>
+      <Position xsi:nil="true" />
+      <Rotation xsi:nil="true" />
+      <Scale xsi:nil="true" />
+      <Effects>
+        <SL_Effect xsi:type="SL_ImbueWeapon">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <Lifespan>600</Lifespan>
+          <ImbueEffect_Preset_ID>203</ImbueEffect_Preset_ID>
+          <Imbue_Slot>MainHand</Imbue_Slot>
+        </SL_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </SL_EffectTransform>
+  </EffectTransforms>
+  <ItemVisuals>
+    <ResourcesPrefabPath>Assets/_Prefabs/_ItemsAssets/4000000_Consumables/4400000_Crafted/4400041_FireVarnish_v</ResourcesPrefabPath>
+    <Prefab_SLPack />
+    <Prefab_AssetBundle />
+    <Prefab_Name />
+    <Position>
+      <x>0</x>
+      <y>0</y>
+      <z>0</z>
+    </Position>
+    <Rotation>
+      <x>-0</x>
+      <y>0</y>
+      <z>0</z>
+    </Rotation>
+    <Scale>
+      <x>1</x>
+      <y>1</y>
+      <z>1</z>
+    </Scale>
+    <PositionOffset xsi:nil="true" />
+    <RotationOffset xsi:nil="true" />
+  </ItemVisuals>
+</SL_Item>
