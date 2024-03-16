@@ -1,4 +1,4 @@
-## Buffed Buffs  Definitive Edition 
+## Sync Buffs  Definitive Edition 
 
  - This is a slighlty tuned version of the mod " Longer Buffs - DE - English version by ScarJaguar https://outward.thunderstore.io/package/ScarJaguar/LongerBuffsEnglish/ " as I felt the original was too powerful.
 - My focus was to improve QoL by synchronizing effect timers rather than making them absurdly long.
